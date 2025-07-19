@@ -1,7 +1,12 @@
+import styles from './style.module.scss'
+
 function MainLayout({ children }) {
+
+  const {wrapLayout, container} = styles
+
   return (
-    <main>
-      <div>{children}</div>
+    <main className={wrapLayout}>
+      <div className={container}>{children}</div>
     </main>
   );
 }
