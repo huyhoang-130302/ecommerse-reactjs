@@ -1,11 +1,11 @@
 import style from "./style.module.scss";
 
-function MyButton() {
+function MyButton({content}) {
+
+  const {btn} = style
+
   return (
-    <div>
-      <button className={style.btn}>M</button>
-      <button className={style.btn2}>X</button>
-    </div>
+    <button className={btn}>{content}</button>
   );
 }
 
