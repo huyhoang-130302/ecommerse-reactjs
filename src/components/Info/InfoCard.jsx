@@ -1,5 +1,4 @@
 import styles from "./styles.module.scss";
-import deliveryIcon from "@icon/svgs/deliveryIcon.svg";
 
 function InfoCard({content, description, src}) {
   const { containerCard, containerContent, title, desc } = styles;
